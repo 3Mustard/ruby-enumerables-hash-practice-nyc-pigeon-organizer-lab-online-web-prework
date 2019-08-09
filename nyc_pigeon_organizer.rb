@@ -12,6 +12,6 @@ def nyc_pigeon_organizer(data)
     names.each do |name|
       pigeons_names.each do |pigeon_name|
         if pigeon_name == name
-          pigeons[pigeon_name][:color] <<
+          pigeons[pigeon_name][:color] << color.to_sym
       
 end
