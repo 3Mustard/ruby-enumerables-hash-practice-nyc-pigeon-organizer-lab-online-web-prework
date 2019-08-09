@@ -1,7 +1,9 @@
 def nyc_pigeon_organizer(data)
   pigeons = Hash.new
-  data.each do |values|
-    values.each do |key,name|
+  data.each do |level1,level2|
+    level2.each do |key,name_array|
+      name_array.each do |name|
+        
       
         
 end
