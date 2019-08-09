@@ -8,5 +8,6 @@ def nyc_pigeon_organizer(data)
     end
   end
   data[:color].each do |color,names|
-    
+    names.each do |name|
+      
 end
