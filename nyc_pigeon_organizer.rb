@@ -13,5 +13,9 @@ def nyc_pigeon_organizer(data)
       pigeons_names.each do |pigeon_name|
         if pigeon_name == name
           pigeons[pigeon_name][:color] << color.to_s
+        end
+      end
+    end
+  end
       
 end
