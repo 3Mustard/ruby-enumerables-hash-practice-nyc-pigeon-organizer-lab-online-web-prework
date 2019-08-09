@@ -17,5 +17,9 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
+  data[:gender].each do |gender,names|
+    names.each do |name|
+      pigeons_names.each do |pigeon_name|
+        if pigeon_name == name
       
 end
