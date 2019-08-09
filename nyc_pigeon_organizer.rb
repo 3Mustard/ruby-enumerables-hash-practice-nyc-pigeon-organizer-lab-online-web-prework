@@ -4,6 +4,8 @@ def nyc_pigeon_organizer(data)
     level2.each do |key,name_array|
       name_array.each do |name|
         pigeons[name] = {:color => [], :gender => [], :lives => []}
-      
-        
+      end
+    end
+  end
+  
 end
